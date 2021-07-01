@@ -31,8 +31,8 @@
        .search_btn{
            color: #0063ab;
            position: absolute;
-           top: 20px;
-           right: 5px;
+           top: 25px;
+           right: 20px;
            display: block;
            background: #fff;
            width: 30px;
