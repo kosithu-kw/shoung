@@ -54,7 +54,7 @@
         <div class="card" style=" background: #0063ab">
             <div class="card-body" id="cardBody">
                 <div class="fixed-top">                    
-                    <div class="inner-header mt-4 pl-5 pl-sm-0 ml-5 text-left text-sm-center">                       
+                    <div class="inner-header mt-4 pl-3 pl-sm-0 ml-5 text-left text-sm-center">                       
                         တွဲဖက်၍မစားသုံးသင့်တဲ့အစားအစာများ
                     </div>
                     <a href="{{route('foods.list')}}" class="back_btn"><i class="fas fa-arrow-circle-left"></i></a>
