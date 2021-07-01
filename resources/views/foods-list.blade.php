@@ -33,7 +33,7 @@
        .search_btn{
            color: #0063ab;
            position: absolute;
-           top: 20px;
+           top: 5px;
            right: 30px;
            display: block;
            background: #fff;
@@ -46,7 +46,7 @@
        .home_btn{
            color: #0063ab;
            position: absolute;
-           top: 20px;
+           top: 5px;
            left: 30px;
            display: block;
            background: #fff;
