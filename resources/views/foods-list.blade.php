@@ -22,9 +22,7 @@
           
         }
        
-        .inner-header{
-           
-            text-align: center;
+        .inner-header{          
                     
             font-size: 18px;
             color: #f6d12c;
@@ -43,19 +41,7 @@
            text-align: center;
            line-height: 30px;
        }
-       .home_btn{
-           color: #0063ab;
-           position: absolute;
-           top: 20px;
-           left: 5px;
-           display: block;
-           background: #fff;
-           width: 30px;
-           height: 30px;
-           border-radius: 30px;
-           text-align: center;
-           line-height: 30px;
-       }
+       
     </style>
 </head>
 <body>
@@ -66,10 +52,9 @@
         <div class="card" style=" background: #0063ab">
             <div class="card-body" id="cardBody">
                 <div class="fixed-top">                    
-                    <div class="inner-header mt-4 text-center">                       
+                    <div class="inner-header mt-4 pl-4 text-left text-sm-center">                       
                         တွဲဖက်၍မစားသုံးသင့်တဲ့အစားအစာများ
                     </div>
-                    <a href="{{route('foods.list')}}" class="home_btn"><i class="fas fa-home"></i></a>
                     <a href="{{route('foods.search')}}" class="search_btn"><i class="fas fa-search"></i></a>
                 </div>      
                {{-- <h5 style="color: #075c6b" class="text-center">တွဲဖက်၍မစားသင့်သောအစားအစာများ</h5> --}}
