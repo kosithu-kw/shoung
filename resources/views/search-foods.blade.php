@@ -24,17 +24,17 @@
        
         .inner-header{
            
-            text-align: center;
                     
             font-size: 18px;
             color: #f6d12c;
+           
             
         }
        .back_btn{
            color: #0063ab;
            position: absolute;
-           top: 20px;
-           left: 5px;
+           top: 25px;
+           left: 20px;
            display: block;
            background: #fff;
            width: 30px;
@@ -42,6 +42,7 @@
            border-radius: 30px;
            text-align: center;
            line-height: 30px;
+
        }
     </style>
 </head>
@@ -53,7 +54,7 @@
         <div class="card" style=" background: #0063ab">
             <div class="card-body" id="cardBody">
                 <div class="fixed-top">                    
-                    <div class="inner-header mt-4 text-center">                       
+                    <div class="inner-header mt-4 pl-5 pl-sm-0 ml-5 text-left text-sm-center">                       
                         တွဲဖက်၍မစားသုံးသင့်တဲ့အစားအစာများ
                     </div>
                     <a href="{{route('foods.list')}}" class="back_btn"><i class="fas fa-arrow-circle-left"></i></a>
