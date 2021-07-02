@@ -53,14 +53,14 @@
         
         <div class="card" style=" background: #0063ab">
             <div class="card-body" id="cardBody">
-                <div class="fixed-top">                    
-                    <div class="inner-header mt-4 pl-3 pl-sm-0 ml-5 text-left text-sm-center">                       
+                <div>                    
+                    <div class="inner-header mt-1 pl-3 pl-sm-0 ml-5 text-left text-sm-center">                       
                         တွဲဖက်၍မစားသုံးသင့်တဲ့အစားအစာများ
                     </div>
                     <a href="{{route('foods.list')}}" class="back_btn"><i class="fas fa-arrow-circle-left"></i></a>
                 </div>      
                {{-- <h5 style="color: #075c6b" class="text-center">တွဲဖက်၍မစားသင့်သောအစားအစာများ</h5> --}}
-               <div class="row mt-5">
+               <div class="row mt-3">
                
                     <div class="col-12">
                         <form method="get" action="{{route('search.now')}}">

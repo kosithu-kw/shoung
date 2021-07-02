@@ -51,14 +51,14 @@
         
         <div class="card" style=" background: #0063ab">
             <div class="card-body" id="cardBody">
-                <div class="fixed-top">                    
-                    <div class="inner-header mt-4 pl-4 text-left text-sm-center">                       
+                <div >                    
+                    <div class="inner-header mt-1 pl-4 text-left text-sm-center">                       
                         တွဲဖက်၍မစားသုံးသင့်တဲ့အစားအစာများ
                     </div>
                     <a href="{{route('foods.search')}}" class="search_btn"><i class="fas fa-search"></i></a>
                 </div>      
                {{-- <h5 style="color: #075c6b" class="text-center">တွဲဖက်၍မစားသင့်သောအစားအစာများ</h5> --}}
-               <div class="row mt-5">
+               <div class="row mt-3">
                 @foreach($foods as  $f)
                    
                         <div class="col-12 col-sm-3 mb-2">
